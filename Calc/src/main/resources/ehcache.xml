@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<diskStore path="java.io.tmpdir" />
+	<defaultCache maxElementsInMemory="10" eternal="false" timeToIdleSeconds="120" timeToLiveSeconds="120" overflowToDisk="true" />
+	<cache name="add" maxElementsInMemory="50" eternal="false" overflowToDisk="true" timeToIdleSeconds="0" timeToLiveSeconds="86400" />
+	<cache name="sub" maxElementsInMemory="50" eternal="false" overflowToDisk="true" timeToIdleSeconds="0" timeToLiveSeconds="86400" />
+	<cache name="multi" maxElementsInMemory="50" eternal="false" overflowToDisk="true" timeToIdleSeconds="0" timeToLiveSeconds="86400" />
+	<cache name="div" maxElementsInMemory="50" eternal="false" overflowToDisk="true" timeToIdleSeconds="0" timeToLiveSeconds="86400" />
+</ehcache>
